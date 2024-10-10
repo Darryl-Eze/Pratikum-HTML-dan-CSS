@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.logo-undiknas{
+    width: 70px;
+    height: auto;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #F5B41D;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+    background-color: #F4A51D;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #F4A51D;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.judul{
+    margin-top:25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.biodata{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.fotodiri{
+    width: 120px;
+    height: 160px;
+    margin-left: 20px;  
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #F4A51D;
+    padding: 50px;
+    text-align: start;
+}
+
+.text-white{
+    color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.box {
+    border: 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 60px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.180);
+    padding-bottom: 10px;
+}
+
+.undiknas_old{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+
+.sekolah{
+    padding-left: 40px;
+    line-height: 30px;
+}
+
+.code{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+
+.skill{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h1{
+    font-size: 4vw;
+}
+
+p{
+    font-size: 1.2em;
+}
